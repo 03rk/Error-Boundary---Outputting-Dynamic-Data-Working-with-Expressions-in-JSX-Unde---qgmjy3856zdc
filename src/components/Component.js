@@ -4,6 +4,8 @@ const Component = (props) => {
     
     const [error, setError] = useState(false);
 
+    props.change(setError);
+
   return (
     <>
     {    
